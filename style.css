@@ -1,3 +1,6 @@
+/* Global */
+/* =================================================================================================================== */
+
 * {
   /*takes any default margin and padding away from the entire page */
   margin: 0;
@@ -9,17 +12,17 @@ body {
   height: 100%;
   font-family: "Oxygen", sans-serif;
 }
+
+body {
+  background-image: url("https://femelabs.com/wp-content/uploads/2014/11/light-purple-background-300x300.jpg-300-%C3%B9300-.jpeg.jpg");
+}
+
 #page-container {
   min-height: calc(
     100vh - 75px
   ); /*This line sets the height of the container to take up the rest of the page below the nav bar */
 }
-body {
-  background-image: url("https://femelabs.com/wp-content/uploads/2014/11/light-purple-background-300x300.jpg-300-%C3%B9300-.jpeg.jpg");
-}
 
-/* Global */
-/* =================================================================================================================== */
 main {
   padding-top: 5vw;
   overflow: auto;
@@ -37,6 +40,29 @@ main {
   box-shadow: 6px 6px 5px 0px rgba(0, 0, 0, 0.41);
 }
 
+.section-title {
+  font-family: "Bree Serif", serif;
+  /* font-size: 50px!important; */
+  color: #10002b;
+  background-color: #f8f8f8 !important;
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.btn-primary {
+    background-color: #9a71b7;
+    border-color: #9a71b7;
+  }
+
+  .btn-primary:hover,
+  .btn-primary:active,
+  .btn-primary:focus {
+    border: 1px solid #3c2256;
+    background-color: #3c2256;
+  }
+
 /* Nav bar */
 /* ================================================================================================================= */
 
@@ -44,9 +70,10 @@ main {
   /* background-color: #9D4EDD!important; */
   background: linear-gradient(
     90deg,
-    rgba(16, 0, 43, 1) 0%,
+    rgba(224, 170, 255, 1) 0%,
+    rgba(118, 83, 145, 1) 50%,
     rgba(224, 170, 255, 1) 100%
-  ) !important;
+  );
 }
 .navbar-brand {
   font-family: "Bree Serif", serif;
@@ -65,17 +92,74 @@ a.nav-link:hover {
   color: #f8ebff !important;
 }
 
+/* Index.html */
 /* ================================================================================================================= */
 
-#resume-btn{
-    text-align: center;
-    padding-bottom: 20px;
-    /* border: 2px solid yellow; */
+#resume-btn {
+  text-align: center;
+  padding-bottom: 20px;
+  /* border: 2px solid yellow; */
 }
 
+#picofme-container {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  max-width: 250px;
+  /* How do I get it to resize?? >:( */
+}
+
+#picofme {
+  max-width: 100%; /* affects the floating image by constraining it to the size of #picofme-container */
+  border: 2px outset;
+  float: left;
+}
+
+/* portfolio_page.html */
+/* ================================================================================================================= */
 #portfolio-title {
   margin-bottom: 20px;
 }
+.row {
+  margin-bottom: 20px;
+}
+
+#portfolio-box img {
+    width: 100%;
+  }
+  
+  .portfolio {
+    /* border: 2px solid red; */
+    background-color: #f8f8f8;
+    padding-left: 20px;
+  }
+  
+  #portfolio-title {
+    background-color: #f8f8f8;
+    padding: 20px;
+  }
+  
+  .card-img-top {
+    /* border: 2px solid red; */
+    margin-top: 20px;
+    /* border-radius: 40px!important; */
+    box-shadow: 6px 6px 5px 0px rgba(0, 0, 0, 0.41);
+  }
+  
+  .card-title,
+  .card-text {
+    text-align: center;
+  }
+
+  h2 {
+    /* border: 2px solid yellow; */
+    text-align: center;
+    padding: 20px;
+  }
+
+  
+/* contact.html */
+/* ================================================================================================================= */
 
 #contact-me-box {
   padding-bottom: 30px;
@@ -94,48 +178,6 @@ form {
 #form-submit-btn:hover {
   background-color: #755290 !important;
 }
-/* #about-me-box,
-  #portfolio-box,
-  #contact-box {
-    background-color: white;
-    padding: 25px;
-  } */
-
-.row {
-  margin-bottom: 20px;
-}
-
-.section-title {
-  font-family: "Bree Serif", serif;
-  /* font-size: 50px!important; */
-  color: #10002b;
-  background-color: #f8f8f8 !important;
-  border-radius: 5px;
-  text-align: center;
-  padding: 10px;
-  margin-top: 20px;
-  /* -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: rgb(165,118,207); */
-}
-
-/* index page */
-/* ========================================================================================================= */
-
-#picofme-container {
-  float: left;
-  margin-right: 20px;
-  margin-bottom: 20px;
-  max-width: 250px;
-  /* How do I get it to resize?? >:( */
-}
-
-#picofme {
-  max-width: 100%; /* affects the floating image by constraining it to the size of #picofme-container */
-  border: 2px outset;
-  float: left;
-}
-
-/* Still on the index page, targeting Social links styling */
 
 .card {
   box-shadow: 6px 6px 5px 0px rgba(0, 0, 0, 0.41);
@@ -156,73 +198,27 @@ form {
 .social-list a:hover {
   text-decoration: none !important;
 }
-/* ======================================================================== */
 
-/* Portfolio page */
-#portfolio-box img {
-  width: 100%;
-}
-
-.caption {
-  /* margin: auto; */
-  width: 100%;
-}
-
-.portfolio {
-  /* border: 2px solid red; */
-  background-color: #f8f8f8;
-  padding-left: 20px;
-}
-
-#portfolio-title {
-  background-color: #f8f8f8;
-  padding: 20px;
-}
-
-.card-img-top {
-  /* border: 2px solid red; */
-  margin-top: 20px;
-  /* border-radius: 40px!important; */
-  box-shadow: 6px 6px 5px 0px rgba(0, 0, 0, 0.41);
-}
-
-.card-title,
-.card-text {
-  text-align: center;
-}
-
-.btn-primary {
-  background-color: #9a71b7;
-  border-color: #9a71b7;
-}
-
-.btn-primary:hover,
-.btn-primary:active,
-.btn-primary:focus {
-  border: 1px solid #3c2256;
-  background-color: #3c2256;
-}
-
-h2 {
-  /* border: 2px solid yellow; */
-  text-align: center;
-  padding: 20px;
-}
-/* ======================================================================== */
-/* Contact page */
-.btn-teal {
-  background-color: #63a8a5;
-  border-color: #63a8a5;
-}
+.list-group-item:hover {
+    border: 1px solid #3c2256;
+    background-color: #f8ebff;
+  }
+  
+  i {
+    color: #765391;
+    font-size: 25px;
+  }
 
 /* Footer */
+/* ==================================================================================== */
+
 footer {
-  /* border-top: 6px solid #63a8a5; */
   background: linear-gradient(
     90deg,
-    rgba(16, 0, 43, 1) 0%,
+    rgba(224, 170, 255, 1) 0%,
+    rgba(118, 83, 145, 1) 50%,
     rgba(224, 170, 255, 1) 100%
-  ) !important;
+  );
   position: relative;
   height: 55px;
   margin-top: -55px; /* Without this negative margin, the footer will always load JUST out of sight. By giving it a negative margin that is the same height as the footer itself, it is repositioned back onto the page. */
@@ -230,7 +226,7 @@ footer {
 }
 
 #footermain {
-  /* I fetched this block from https://www.w3schools.com/css/css_align.asp */
+  /* thanks to https://www.w3schools.com/css/css_align.asp */
   width: 100%;
   color: #f8ebff;
   text-align: center;
@@ -241,16 +237,4 @@ footer {
   transform: translate(-50%, -50%);
 }
 
-.socialicon {
-  max-width: 24px;
-}
 
-.list-group-item:hover {
-  border: 1px solid #3c2256;
-  background-color: #f8ebff;
-}
-
-i {
-  color: gray;
-  font-size: 25px;
-}
