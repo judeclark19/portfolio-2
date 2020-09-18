@@ -1,0 +1,180 @@
+* {
+    /*takes any default margin and padding away from the entire page */
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Bree Serif', serif; */
+  }
+  
+  html,
+  body {
+    height: 100%; 
+    font-family: 'Oxygen', sans-serif;
+  }
+  #page-container {
+    min-height: calc(
+      100vh - 56px
+    ); /*This line sets the height of the container to take up the rest of the page below the nav bar */
+  }
+  body {
+    background-image: url("https://femelabs.com/wp-content/uploads/2014/11/light-purple-background-300x300.jpg-300-%C3%B9300-.jpeg.jpg");
+  }
+  
+  /* Nav bar */
+  /* ================================================================================================================= */
+
+  .navbar {
+      /* background-color: #9D4EDD!important; */
+      background: linear-gradient(90deg, rgba(16,0,43,1) 0%, rgba(224,170,255,1) 100%)!important;
+  }
+  .navbar-brand {
+    font-family: 'Bree Serif', serif;
+    color: white !important;
+    letter-spacing: 1px;
+    font-size: 25pt;
+    margin-left: 25px;
+    /* Not sure yet playfair is the right one */
+  }
+
+  .nav-link{
+font-size: 14pt;
+  }
+
+  a.nav-link:hover{
+      color: #F8EBFF!important;
+  }
+  
+  /* .nav-teal {
+    background-color: #63a8a5 !important;
+  } */
+  
+  /* Global */
+  /* =================================================================================================================== */
+  main {
+    padding-top: 5vw;
+    overflow: auto;
+    padding-bottom: 100px;
+    /* background-color: #F8EBFF; */
+  }
+  
+
+  #about-me-box{
+      /* border: 1px dashed #10002B; */
+      border: 1px solid rgba(0,0,0,.125);
+      border-radius: 5px;
+      background-color: white;
+      box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.41);
+  }
+  /* #about-me-box,
+  #portfolio-box,
+  #contact-box {
+    background-color: white;
+    padding: 25px;
+  } */
+  
+  /* .row {
+    margin-bottom: 20px;
+  } */
+  
+  h1 {
+    
+    font-family: 'Bree Serif', serif;
+    /* font-size: 50px!important; */
+    color: #10002B;
+    background-color: #F8F8F8!important;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    /* -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: rgb(165,118,207); */
+  }
+  
+  /* index page */
+  /* ========================================================================================================= */
+  
+  #picofme-container{
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    max-width: 250px;
+    /* How do I get it to resize?? >:( */
+  }
+  
+  #picofme {
+    max-width: 100%; /* affects the floating image by constraining it to the size of #picofme-container */
+    border: 2px outset;
+    float: left;
+  } 
+  
+  /* Still on the index page, targeting Social links styling */
+
+  .card{
+    box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.41);
+  }
+
+  .card-header{
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    font-size: 24px;
+  }
+  
+  .social-list a {
+    color:#212529 !important;
+  }
+  
+  .social-list a:hover {
+    text-decoration:none !important;
+  }
+  
+  
+  /* Portfolio page */
+  #portfolio-box img {
+    width: 100%;
+  }
+  
+  /* Contact page */
+  .btn-teal {
+    background-color: #63a8a5;
+    border-color: #63a8a5;
+  }
+  
+  /* Footer */
+  footer {
+    /* border-top: 6px solid #63a8a5; */
+    background: linear-gradient(90deg, rgba(16,0,43,1) 0%, rgba(224,170,255,1) 100%)!important;
+    position: relative;
+    height: 55px;
+    margin-top: -55px; /* Without this negative margin, the footer will always load JUST out of sight. By giving it a negative margin that is the same height as the footer itself, it is repositioned back onto the page. */
+    clear: both; /* essentially a line break for floating*/
+  }
+  
+  #footermain {
+    /* I fetched this block from https://www.w3schools.com/css/css_align.asp */
+    width: 100%;
+    color: #F8EBFF;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(
+      -50%,
+      -50%
+    ); 
+  }
+  
+  .socialicon{
+    max-width: 24px;
+  }
+
+  .list-group-item:hover{
+      border: 1px solid #3C2256;
+      background-color:#F8EBFF;
+  }
+
+  i{
+      color: gray;
+      font-size: 25px;
+  }
