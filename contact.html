@@ -77,72 +77,56 @@
       </button>
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="./contact.html">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./portfolio.html">Portfolio</a>
-          </li>
           <li class="nav-item active">
-            <span class="nav-link">About <span class="sr-only">(current)</span></span>
+            <span class="nav-link">Contact <span class="sr-only">(current)</span></span>
             
           </li>
-        </ul>
+            <li class="nav-item">
+              <a class="nav-link" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html">About</a>
+            </li>
+          </ul>
       </div>
     </nav>
     <!-- End of Nav Bar -->
 
     <!-- Main section start -->
-    <main class="container" id="page-container">
+<main class="container" id="page-container">
             <div class="row">
-                <div class="col-sm-7" id="about-me-box">
-                    <h1>About Me</h1>
+                <div class="col-sm-7" id="contact-me-box">
+                    <h1>Contact Me</h1>
               <hr />
-              <div id="picofme-container">
-                <!-- <img
-                    src="https://via.placeholder.com/250x250.png"
-                    alt="placeholder"
-                  /> -->
-                <img src="assets/jude350square.jpg" id="picofme" />
-              </div>
 
-              <div class="texttowrap">
-                <p>
-                  My name is Jude Clark. I am a 28 year old full-stack web
-                  developer living in Duluth, GA. My coworkers nicknamed me "the
-                  human computer". My attention to detail, efficiency, and
-                  ability to conceptualize complex systems are features that
-                  help me to excel at building and maintaining websites.
-                </p>
-                <p>
-                  I started my education as a musician, completing a Bachelor's
-                  of Music Composition from the University of South Carolina in
-                  2014. After university, I worked in the classical music
-                  industry for four years, after which I had the urge to try
-                  something new. In 2018 I returned to my hometown of Duluth, GA
-                  with the goal of building a life for myself and my husband in
-                  the city I love (Atlanta!).
-                </p>
+              <form id="contact-form">
+                <!-- Name input -->
+                <div class="form-group">
+                  <label for="inputName">Name</label>
+                  <input type="text" class="form-control" id="inputName" />
+                </div>
 
+                <!-- Email input -->
+                <div class="form-group">
+                  <label for="inputEmail">Email</label>
+                  <input type="text" class="form-control" id="inputEmail" />
+                </div>
 
-                <p>
-                  When the world changed because of the pandemic, I, like so
-                  many others, have turned to the tech industry in search of our
-                  next career opportunity. As a teenager, my second choice for
-                  education (after classical music) was to study computer
-                  science at Georgia Tech. So, it felt very natural for me to
-                  enroll in the full time coding bootcamp with Georgia Tech in
-                  August of 2020.
-                </p>
-                <p>
-                  Since then, I have had a blast learning about the coding
-                  world!
-                </p>
-                <p>
-                  My other interests include: makeup, the Olympics, Nederlands
-                  spreken.
-                </p>
-              </div>
+                <!-- Text box -->
+                <div class="form-group">
+                  <label for="messageTextArea">Message</label>
+                  <textarea
+                    class="form-control"
+                    id="messageTextArea"
+                    rows="3"
+                  ></textarea>
+                </div>
+
+                <!-- submit button -->
+                <button type="submit" class="btn btn-primary" id="form-submit-btn">
+                  Submit
+                </button>
+              </form>
 
                 </div>
                 <div class="col-sm-1"></div>

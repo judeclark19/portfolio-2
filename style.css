@@ -57,12 +57,30 @@ font-size: 14pt;
   }
   
 
-  #about-me-box{
+  #about-me-box, #contact-me-box{
       /* border: 1px dashed #10002B; */
       border: 1px solid rgba(0,0,0,.125);
       border-radius: 5px;
       background-color: white;
       box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.41);
+  }
+
+  #contact-me-box{
+      padding-bottom:30px;
+  }
+
+  form{
+      margin: auto;
+      width: 90%;
+  }
+
+  #form-submit-btn{
+      background-color: #9A71B7!important;
+      border-color: #9A71B7;
+  }
+
+  #form-submit-btn:hover{
+ background-color: #755290!important;
   }
   /* #about-me-box,
   #portfolio-box,
