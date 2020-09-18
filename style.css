@@ -65,6 +65,10 @@ font-size: 14pt;
       box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.41);
   }
 
+  /* #about-me-box{
+      align-items: center;
+  } */
+
   #portfolio-title{
       margin-bottom: 20px;
   }
