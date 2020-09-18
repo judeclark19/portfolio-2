@@ -57,7 +57,7 @@ font-size: 14pt;
   }
   
 
-  #about-me-box, #contact-me-box, #portfolio-box{
+  #about-me-box, #contact-me-box #portfolio-box{
       /* border: 1px dashed #10002B; */
       border: 1px solid rgba(0,0,0,.125);
       border-radius: 5px;
@@ -145,13 +145,24 @@ font-size: 14pt;
   .social-list a:hover {
     text-decoration:none !important;
   }
-  
+   /* ======================================================================== */
   
   /* Portfolio page */
   #portfolio-box img {
     width: 100%;
   }
-  
+
+  .caption{
+      /* margin: auto; */
+      width: 100%;
+  }
+
+  .portfolio{
+      /* border: 2px solid red; */
+      padding-top: 15px;
+      padding-bottom: 15px;
+  }
+  /* ======================================================================== */
   /* Contact page */
   .btn-teal {
     background-color: #63a8a5;

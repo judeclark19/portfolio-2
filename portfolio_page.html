@@ -49,10 +49,18 @@
     />
 
     <!-- Font awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Oxygen&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Oxygen&display=swap"
+      rel="stylesheet"
+    />
     <!-- My own CSS -->
     <link rel="stylesheet" href="./style.css" />
   </head>
@@ -77,81 +85,98 @@
       </button>
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav">
-
-            <li class="nav-item">
-              <a class="nav-link" href="./contact.html">Contact</a>
-            </li>
-            <li class="nav-item active">
-                <span class="nav-link">Portfolio <span class="sr-only">(current)</span></span>
-              </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./index.html">About</a>
-            </li>
-          </ul>
+          <li class="nav-item">
+            <a class="nav-link" href="./contact.html">Contact</a>
+          </li>
+          <li class="nav-item active">
+            <span class="nav-link"
+              >Portfolio <span class="sr-only">(current)</span></span
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">About</a>
+          </li>
+        </ul>
       </div>
     </nav>
     <!-- End of Nav Bar -->
 
-    <!-- Main section start -->    <main class="container" id="page-container">
-            <div class="row">
-                <div class="col-sm-12" id="portfolio-box">
-                    <h1>Portfolio</h1>
-              <hr />
-              <!-- Image grid  -->
-              <div class="container">
-                <div class="row">
-                  <div class="col-sm-4">
-                    <img
-                      src="https://via.placeholder.com/350x350.png"
-                      alt="image 1"
-                    />
-                    <figcaption>Fig1. - Trulli, Puglia, Italy.</figcaption>
-                  </div>
-                  <div class="col-sm-4">
-                    <img
-                      src="https://via.placeholder.com/350x350.png"
-                      alt="image 2"
-                    />
-                    <figcaption>Fig1. - Trulli, Puglia, Italy.</figcaption>
-                  </div>
-                  <div class="col-sm-4">
-                    <img
-                      src="https://via.placeholder.com/350x350.png"
-                      alt="image 2"
-                    />
-                    <figcaption>Fig1. - Trulli, Puglia, Italy.</figcaption>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-sm-6">
-                    <img
-                      src="https://via.placeholder.com/350x350.png"
-                      alt="image 3"
-                    />
-                  </div>
-                  <div class="col-sm-6">
-                    <img
-                      src="https://via.placeholder.com/350x350.png"
-                      alt="image 4"
-                    />
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-sm-6">
-                    <img
-                      src="https://via.placeholder.com/350x350.png"
-                      alt="image 5"
-                    />
-                  </div>
-                  <div class="col-sm-6"></div>
-                </div>
-              </div>
+    <!-- Main section start -->
+    <main class="container" id="page-container">
+      <div class="row">
+        <div class="col-sm-12" id="portfolio-box">
+          <h1>Portfolio</h1>
+        </div>
+      </div>
+      <!-- Image grid  -->
+      <div class="row">
+        <div class="portfolio card col-sm-6">
+          <img
+            class="card-img-top"
+            src="https://github.com/judeclark19/weather-dashboard/raw/master/Assets/Screenshots/one_search_result.png"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Weather Dashboard</h5>
+            <p class="card-text">Github repo, deployed</p>
+          </div>
+        </div>
 
-<!-- END image grid -->
+        <div class="portfolio card col-sm-6">
+          <img
+            class="card-img-top"
+            src="https://github.com/judeclark19/coding-quiz/raw/master/Assets/screenshots/welcome_screen.png"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h5 class="card-title">JavaScript Quiz</h5>
+            <p class="card-text">Github repo, deployed</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="portfolio card col-sm-6">
+          <img
+            class="card-img-top"
+            src="https://github.com/judeclark19/workday-planner/raw/master/Assets/planner_screenshot.png"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Workday Planner</h5>
+            <p class="card-text">Github repo, deployed</p>
+          </div>
+        </div>
 
-            </div>
-            </div>
-      </main>
+        <div class="portfolio card col-sm-6">
+          <img
+            class="card-img-top"
+            src="https://github.com/judeclark19/password-generator/raw/master/assets/screenshots/screenshot1.png"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Password Generator</h5>
+            <p class="card-text">Github repo, deployed</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="portfolio card col-sm-6">
+          <img
+            class="card-img-top"
+            src="https://www.foxbyrd.com/wp-content/uploads/2018/02/file-4-900x500.jpg"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h5 class="card-title">PersonaGen</h5>
+            <p class="card-text">Currently under development</p>
+          </div>
+        </div>
+
+        <div class="col-sm-6"></div>
+      </div>
+
+      <!-- END image grid -->
+    </main>
     <!-- Main section end -->
 
     <!-- Footer begin -->
