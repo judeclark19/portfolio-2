@@ -3,15 +3,15 @@
 ## Description
 This portfolio contains my bio, résumé, displays the work I have created while enrolled in the GA Tech Full Stack Coding Bootcamp. It is made up of three pages:
 
-* [About Me](https://judeclark19.github.io/jude-clark-portfolio/)
+* [About Me](https://judeclark19.github.io/portfolio-2/index.html)
 
 ![About Me page](./assets/about_me_screenshot.png)
 
-* [Portfolio](https://judeclark19.github.io/jude-clark-portfolio/portfolio_page.html)
+* [Portfolio](https://judeclark19.github.io/portfolio-2/portfolio_page.html)
 
 ![Portfolio page](./assets/portfolio_page_screenshot.png)
 
-* [Contact](https://judeclark19.github.io/jude-clark-portfolio/contact.html)
+* [Contact](https://judeclark19.github.io/portfolio-2/contact.html)
 
 ![Contact page](./assets/contact_page_screenshot.png)
 
