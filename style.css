@@ -57,12 +57,16 @@ font-size: 14pt;
   }
   
 
-  #about-me-box, #contact-me-box #portfolio-box{
+  #about-me-box, #contact-me-box, #portfolio-box{
       /* border: 1px dashed #10002B; */
       border: 1px solid rgba(0,0,0,.125);
       border-radius: 5px;
       background-color: white;
       box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.41);
+  }
+
+  #portfolio-title{
+      margin-bottom: 20px;
   }
 
   #contact-me-box{
@@ -93,8 +97,7 @@ font-size: 14pt;
     margin-bottom: 20px;
   }
   
-  h1 {
-    
+  .section-title {
     font-family: 'Bree Serif', serif;
     /* font-size: 50px!important; */
     color: #10002B;
@@ -159,8 +162,41 @@ font-size: 14pt;
 
   .portfolio{
       /* border: 2px solid red; */
-      padding-top: 15px;
-      padding-bottom: 15px;
+      background-color: #F8F8F8;
+      padding-left:20px;
+      
+  }
+
+  #portfolio-title{
+    background-color: #F8F8F8;
+    padding: 20px;
+  }
+
+  .card-img-top{
+      /* border: 2px solid red; */
+      margin-top: 20px;
+      /* border-radius: 40px!important; */
+      box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.41);
+  }
+
+  .card-title, .card-text{
+      text-align: center;
+  }
+
+  .btn-primary{
+      background-color: #9A71B7;
+      border-color: #9A71B7
+  }
+
+  .btn-primary:hover, .btn-primary:active, .btn-primary:focus{
+      border: 1px solid #3C2256;
+      background-color:#3C2256;
+  }
+
+  h2{
+      /* border: 2px solid yellow; */
+      text-align: center;
+      padding: 20px;
   }
   /* ======================================================================== */
   /* Contact page */
