@@ -57,7 +57,7 @@ font-size: 14pt;
   }
   
 
-  #about-me-box, #contact-me-box{
+  #about-me-box, #contact-me-box, #portfolio-box{
       /* border: 1px dashed #10002B; */
       border: 1px solid rgba(0,0,0,.125);
       border-radius: 5px;
@@ -89,9 +89,9 @@ font-size: 14pt;
     padding: 25px;
   } */
   
-  /* .row {
+  .row {
     margin-bottom: 20px;
-  } */
+  }
   
   h1 {
     
