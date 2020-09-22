@@ -28,6 +28,11 @@ This web page contains my bio, résumé, and contact information, and displays t
 
 ***
 
+## Known Issues
+Breakpoints.........
+
+***
+
 
 ## License
 MIT License
