@@ -1,31 +1,29 @@
 # My Portfolio Website
 
 ## Description
-This portfolio contains my bio, résumé, displays the work I have created while enrolled in the GA Tech Full Stack Coding Bootcamp. It is made up of three pages:
+This web page contains my bio, résumé, and contact information, and displays the work I have created while enrolled in the GA Tech Full Stack Coding Bootcamp. It consists of three sections:
 
 * [About Me](https://judeclark19.github.io/portfolio-2/index.html)
 
-![About Me page](./assets/about_me_screenshot.png)
+![About Me section](./README_images/about_me_ss.png)
 
 * [Portfolio](https://judeclark19.github.io/portfolio-2/portfolio_page.html)
 
-![Portfolio page](./assets/portfolio_page_screenshot.png)
+![Portfolio page](./README_images/portfolio_ss.png)
 
 * [Contact](https://judeclark19.github.io/portfolio-2/contact.html)
 
-![Contact page](./assets/contact_page_screenshot.png)
+![Contact page](./README_images/contact_me_ss.png)
 
 ***
 
 ## Sources:
 
+* [Webflow](https://webflow.com/)
+
 * [Bootstrap](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
 
 * [Google Fonts](https://fonts.google.com/)
-
-* "[How to Always Keep the Footer at the Bottom of A Page](https://www.youtube.com/watch?v=qlCIXXhSX6Y)", a YouTube video by Dani Krossing.
-
-* W3 Schools: [CSS Layout - Horizontal & Vertical Align](https://www.w3schools.com/css/css_align.asp)
 
 ***
 
