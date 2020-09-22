@@ -61,6 +61,7 @@ h2 {
 
 a.nav-link:hover {
   color: #f8ebff !important;
+  text-decoration: none;
 }
 
 .div-block {
@@ -514,9 +515,9 @@ a.nav-link:hover {
   text-decoration: none;
 }
 
-.footer-link:hover {
+/* .footer-link:hover {
   text-decoration: underline;
-}
+} */
 
 .columns-3 {
   display: -webkit-box;
@@ -622,6 +623,7 @@ a.nav-link:hover {
 .deployed:hover{
   background-color: #8600cf;
   color: white;
+  text-decoration: none;
 }
 
 .repo-button {
@@ -631,16 +633,17 @@ a.nav-link:hover {
 .repo-button:hover {
   background-color: #cc8dee;
   color: white;
+  text-decoration: none;
 }
 
-.submit-button {
+/* .submit-button {
   background-color: #5f0092;
 }
 
 .submit-button.hover {
   background-color: #8600cf;
   color: white;
-}
+} */
 
 .text-block-2 {
   color: #cc8dee;
@@ -652,6 +655,11 @@ a.nav-link:hover {
 
 .nav-link:hover {
   color: #fcf7ff;
+  text-decoration: none;
+}
+
+.navbar-toggler{
+  color: #cc8dee;
 }
 
 .section-3 {

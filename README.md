@@ -28,10 +28,6 @@ This web page contains my bio, résumé, and contact information, and displays t
 
 ***
 
-## Known Issue
-Nav bar hamburger doesn't expand
-***
-
 
 ## License
 MIT License
