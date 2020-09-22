@@ -1,19 +1,20 @@
 # My Portfolio Website
+Deployed site: https://judeclark19.github.io/portfolio-2/
 
 ## Description
 This web page contains my bio, résumé, and contact information, and displays the work I have created while enrolled in the GA Tech Full Stack Coding Bootcamp. It consists of three sections:
 
-* [About Me](https://judeclark19.github.io/portfolio-2/index.html)
+* About Me
 
 ![About Me section](./README_images/about_me_ss.png)
 
-* [Portfolio](https://judeclark19.github.io/portfolio-2/portfolio_page.html)
+* Portfolio
 
-![Portfolio page](./README_images/portfolio_ss.png)
+![Portfolio section](./README_images/portfolio_ss.png)
 
-* [Contact](https://judeclark19.github.io/portfolio-2/contact.html)
+* Contact Me
 
-![Contact page](./README_images/contact_me_ss.png)
+![Contact section](./README_images/contact_me_ss.png)
 
 ***
 
