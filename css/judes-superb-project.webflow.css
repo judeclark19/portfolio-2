@@ -44,7 +44,7 @@ h2 {
 }
 
 .navbar {
-  background-color: #370055!important;
+  background-color: #370055 !important;
 }
 
 .navbar-brand {
@@ -141,7 +141,7 @@ a.nav-link:hover {
 }
 
 .button-holder {
-  background-image: url('../images/50x50.png');
+  background-image: url("../images/50x50.png");
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -190,6 +190,9 @@ a.nav-link:hover {
   text-align: center;
 }
 
+.github-button {
+  text-align: center;
+}
 .button {
   text-align: left;
 }
@@ -340,8 +343,8 @@ a.nav-link:hover {
 }
 
 .cards-grid-container.row-of-2 {
--ms-grid-columns: 1fr 1fr;
-grid-template-columns: 1fr 1fr;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
 }
 
 .cards-image-mask {
@@ -355,7 +358,6 @@ grid-template-columns: 1fr 1fr;
 .cards-image-mask.portfolio-img-mask {
   background-color: #fff;
   margin-bottom: 20px;
-  
 }
 
 .cards-image {
@@ -541,14 +543,14 @@ grid-template-columns: 1fr 1fr;
 }
 
 .link:hover {
-    border: 1px solid #3c2256;
-    background-color: #f8ebff;
-  }
-  
-  i {
-    color: #765391;
-    font-size: 25px;
-  }
+  border: 1px solid #3c2256;
+  background-color: #f8ebff;
+}
+
+i {
+  color: #765391;
+  font-size: 25px;
+}
 
 .column-2 {
   display: -webkit-box;
@@ -616,7 +618,7 @@ grid-template-columns: 1fr 1fr;
   background-color: #5f0092;
 }
 
-.deployed:hover{
+.deployed:hover {
   background-color: #8600cf;
   color: white;
   text-decoration: none;
@@ -646,7 +648,7 @@ grid-template-columns: 1fr 1fr;
 }
 
 .nav-link {
-  color: #cc8dee!important;
+  color: #cc8dee !important;
 }
 
 .nav-link:hover {
@@ -654,7 +656,7 @@ grid-template-columns: 1fr 1fr;
   text-decoration: none;
 }
 
-.navbar-toggler{
+.navbar-toggler {
   color: #cc8dee;
 }
 
